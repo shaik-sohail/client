@@ -521,7 +521,7 @@ font-weight:900;
 }
 .example form .user-details .input-box3{
   margin-bottom: 15px;
-  width: calc(100% /  - 30px);
+  width: calc(100% - 30px);
   margin-left:10px;
 }
 .example form .input-box3 span.details{
