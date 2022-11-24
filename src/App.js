@@ -9,7 +9,7 @@ import Login from './components/Login';
 import Update from './components/Update';
 import Details from './components/Details';
 import Contact from './components/Contact';
-import BloodTypes from './components/BloodTypes';
+//import BloodTypes from './components/BloodTypes';
 import BloodBanks from './components/BloodBanks';
 import { BrowserRouter as Router,Routes, Route} from "react-router-dom";
 function App() {
@@ -22,7 +22,7 @@ function App() {
               <Route path="/list" element={<Table/>} />
               <Route path="/login" element={<Login/>} />
               <Route path="/eligibility" element={<Eligibility/>} />
-              <Route path="/bloodtypes" element={<BloodTypes/>} />
+             // <Route path="/bloodtypes" element={<BloodTypes/>} />
               <Route path="/donation" element={<DonationProcess/>} />
               <Route path="/update/:id" element={<Update/>} />
               <Route path="/view/:id" element={<Details/>} />
